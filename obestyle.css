@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+:root {
+    --font-family:'Roboto', sans-serif;
+    
+    
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-family);
+  }
+.container {
+    height: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .card {
+    background-color: #e3e3e0;
+    color: #00c2f3c2;
+    width: 68%;
+    padding-left: 2%;
+  }
+    
+  .yh1{
+      font-size:250%;
+      color: rgb(241, 181, 28);
+      font-weight: bolder;
+  }
+  .bh1{
+    font-size:250%;
+    color: rgb(18, 70, 138);
+      font-weight: bolder;
+  }
+  .lbh1{
+    font-size:250%;
+    color:#1daaaf;
+      font-weight: bolder;
+  }
+  .yh2{
+    font-size:165%;
+      color: rgb(241, 181, 28);
+      font-weight: bolder
+  }
+  .bh2{
+    font-size:170%;
+    color: rgb(14, 68, 138);
+    font-weight: bold
+  }
+  .lbh2{
+    font-size:170%;
+    color: #1daaaf;
+    font-weight: bold
+  }
+  .yh3{
+    font-size:85%;
+      color: rgb(241, 181, 28);
+      font-weight: bolder
+  }
+  .bh3{
+    font-size:140%;
+      color: rgb(18, 70, 138);
+      font-weight: bolder
+  }
+  .lbh3{
+    font-size:86%;
+      color: #1daaaf;
+      font-weight: bolder
+  }
+
+  
+
+  .inb{
+    display: inline-block;
+  }
+  .icon{
+    color: rgba(255, 255, 255, 0.808);
+    background-color: #1daaaf; ;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  border-left-style: dotted;
+  border-right-style: dotted;
+  padding: 1%;
+  }
+  p{
+    font-size:70%;
+    color: #1daaaf;
+    font-weight: bold
+  }
+  .bl{
+    color: rgb(63, 44, 88);
+    font-weight: bold;
+    font-size: 100%;
+    text-align: center;
+  }
+#padr{
+  text-align: right;
+}
+.round{
+border: 3px solid rgb(63, 44, 88);
+border-radius: 100%;
+padding: 2%;
+height: 60px;
+width: 60px
+}
+#lastblock{
+padding-left: 5%;
+}
+hr{
+  border-left : 3px dashed darkcyan; height: 820px;
+}
+#paddot{
+  padding: 3%;
+}
+.pdl25{
+  padding-left: 25%;
+}
