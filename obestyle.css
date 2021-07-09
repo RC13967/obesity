@@ -9,32 +9,24 @@
     padding: 0;
     font-family: var(--font-family);
   }
-.container {
-    height: 100%;
-    background-color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .card {
+  .row {
     background-color: #e3e3e0;
     color: #00c2f3c2;
-    width: 68%;
-    padding-left: 2%;
+    
   }
     
   .yh1{
-      font-size:250%;
+      font-size:240%;
       color: rgb(241, 181, 28);
       font-weight: bolder;
   }
   .bh1{
-    font-size:250%;
+    font-size:240%;
     color: rgb(18, 70, 138);
       font-weight: bolder;
   }
   .lbh1{
-    font-size:250%;
+    font-size:245%;
     color:#1daaaf;
       font-weight: bolder;
   }
@@ -77,12 +69,10 @@
   .icon{
     color: rgba(255, 255, 255, 0.808);
     background-color: #1daaaf; ;
-    display: flex;
-  justify-content: center;
-  align-items: center;
+   text-align: center;
   border-left-style: dotted;
   border-right-style: dotted;
-  padding: 1%;
+
   }
   p{
     font-size:70%;
@@ -95,9 +85,7 @@
     font-size: 100%;
     text-align: center;
   }
-#padr{
-  text-align: right;
-}
+
 .round{
 border: 3px solid rgb(63, 44, 88);
 border-radius: 100%;
@@ -105,15 +93,22 @@ padding: 2%;
 height: 60px;
 width: 60px
 }
-#lastblock{
-padding-left: 5%;
+
+@media screen and (max-width:767px) {
+  .dashlin{
+
+  border-bottom: 3px dashed darkcyan;
 }
-hr{
-  border-left : 3px dashed darkcyan; height: 820px;
 }
-#paddot{
-  padding: 3%;
+
+
+@media screen and (min-width:768px) {
+  .dashlin{
+    border-right : 3px dashed darkcyan;
+     height: 1120px;
+    
+  
+  }
+  
 }
-.pdl25{
-  padding-left: 25%;
-}
+
