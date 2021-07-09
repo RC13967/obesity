@@ -7,13 +7,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./obestyle.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+    crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" 
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" 
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" 
+integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" 
+crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <div class="container">
-        <div class="card">
+    <div class="container text-align-center">
+        <div class="row">
+            
 
-            <div class="inb">
+            <div class="col-10 col-md-5">
                 <div>
                     <div>
                         <span class="lbh1">OBESITY </span> <span class="yh1"> INFOGRAPHICS</span>
@@ -26,15 +37,15 @@
 
                 <div class="icon">Lorem ipsum dolor sit amet</div><br />
 
-                <div>
-                    <div class="inb">
+                <div class="row">
+                    <div class="col-7">
                         <span class="bh2">INCREASING<br />PORTION SIZE</span>
                         <p>Lorem ipsum dolor sit amet,<br />
                             consectetur adipiscing elit,<br />
                             sed do eiusmod tempor incididunt.</p>
                     </div>
 
-                    <div class="inb"><img src="./ob1.png">
+                    <div class="col-5"><img src="./ob1.png">
                         <img src="./ob2.png">
                     </div>
                 </div>
@@ -46,10 +57,10 @@
                 </div>
 
 
-                <span class="icon">Lorem ipsum dolor sit amet</span> <br />
+                <div class="icon">Lorem ipsum dolor sit amet</div> <br />
 
-                <div>
-                    <div class="inb" id="padr">
+                <div class="row">
+                    <div class="col-4" >
                         <span class="bh2">NEARLY</span><br /><span class="yh1">500</span><br />
                         <div class="lbh3">
                             <div>MILLION PEOPLE</div>
@@ -57,7 +68,7 @@
                             <div> OBESITY</div>
                         </div>
                     </div>
-                    <div class="inb">
+                    <div class="col-8">
                         <img src="./ob9.png">
                         <img src="./ob10.png">
                         <img src="./ob12.png">
@@ -65,60 +76,68 @@
 
                 </div>
 
-                <div class="pdl25">
-
-                    <div>
-                        <div class="inb">
-                            <div class="yh2">ADULTS</div>
-                            <div class="bh1">65%</div>
-                        </div>
-                        <div class="inb">
-                            <img src="./ob13.png"><img src="./ob13.png"><img src="./ob13.png"><img src="./ob13.png">
-                        </div>
-                    </div><br />
-
-
-                    <div>
-                        <div class="inb">
-                            <div class="yh2">YOUNG</div>
-                            <div class="bh1">34%</div>
-                        </div>
-                        <div class="inb">
-                            <img src="./ob13.png"><img src="./ob13.png"><img src="./ob13.png">
-                        </div>
-                    </div><br />
+                <div class="row">
+                    <div class="col-12 col-sm-4"></div>
+                    <div class="col-12 col-sm-8">
+                        <div class="row">
+                            <div class="col-4">
+                                <div class="yh2">ADULTS</div>
+                                <div class="bh1">65%</div>
+                            </div>
+                            <div class="col-8">
+                                <img src="./ob13.png"><img src="./ob13.png"><img src="./ob13.png"><img src="./ob13.png">
+                            </div>
+                        
+                    
 
 
-                    <div>
-                        <div class="inb">
-                            <div class="yh2">CHILDREN</div>
-                            <div class="bh1">10%</div>
+                    
+                           <div class="col-4">
+                               <div class="yh2">YOUNG</div>
+                               <div class="bh1">34%</div>
+                           </div>
+                           <div class="col-8">
+                               <img src="./ob13.png"><img src="./ob13.png"><img src="./ob13.png">
+                            </div>
+                    
+
+
+                    
+                            <div class="col-4">
+                                <div class="yh2">CHILDREN</div>
+                                <div class="bh1">10%</div>
+                            </div>
+                           <div class="col-8">
+                               <br/>
+                               <img src="./ob13.png">
+                            </div>
                         </div>
-                        <div class="inb">
-                            <img src="./ob13.png">
-                        </div>
+
+
                     </div>
-
-
                 </div>
+
+
+
+            </div><br/><br/>
+
+
+
+
+
+            <div class="col-12 col-md-1 dashlin">
+            
+            <hr>
             </div>
 
+        <div class="col-12 col-md-1"></div>
 
 
 
 
-
-            <div class="inb" id="paddot">
-                <hr>
-            </div>
-
-
-
-
-
-
-            <div class="inb">
+            <div class="col-10 col-md-5">
                 <div>
+                    <br/>
                     <div class="icon">Lorem ipsum dolor sit amet</div><br />
                     <span class="bh2">HEALTHY EATING</span><br /><br />
 
@@ -146,34 +165,52 @@
                         <div class="inb"><img src="ob18.png"><img src="ob19.png"></div>
                     </div>
 
-                </div><br />
+                </div><br/>
 
-                <span class="icon">Lorem ipsum dolor sit amet</span> <br />
-                <div>
+                <div class="icon">Lorem ipsum dolor sit amet</div> <br />
+                <div class="row">
 
-                    <div class="inb">
-                        <img src="ob20.png" class="round"><br /><br /><br /><br/>
-                        <img src="ob21.png" class="round"><br /><br /><br /><br/>
-                        <img src="ob22.png" class="round"><br />
+                    <div class="col-3">
+                        <img src="ob20.png" class="round">
                     </div>
 
-                    <div class="inb" id="lastblock">
-
+                    <div class="col-9">
                         <span class="bh3">DIABETES</span><br /><span class="yh2">800 000</span> <span
                             class="yh3">people</span><br />
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br />
                             ser do eiusmod tempor incididunt<br /><br /></p>
+                    </div>
 
+
+                    <div class="col-3">
+                        <img src="ob21.png" class="round">
+                    </div>
+                    <div class="col-9">
                         <span class="bh3">STROKE</span><br /><span class="yh2">800 000</span>
                         <span class="yh3">people</span><br />
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br />
-                            ser do eiusmod tempor incididunt<br /><br /></p>
-
+                        ser do eiusmod tempor incididunt<br /><br /></p> 
+                    </div>
+                        
+                    <div class="col-3">
+                        <img src="ob22.png" class="round">
+                    </div>
+                    <div class="col-9">
                         <span class="bh3">CANCER</span><br /><span class="yh2">800 000</span>
                         <span class="yh3">people</span><br />
                         <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br />
                             ser do eiusmod tempor incididunt</p>
                     </div>
+                    
+
+                    
+
+                        
+
+                        
+
+                        
+                
                 </div>
             </div>
         </div>
