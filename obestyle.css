@@ -111,10 +111,8 @@ width: 60px
 @media screen and (min-width:768px) {
   .dashlin{
     border-right : 3px dashed darkcyan;
-     height: 1120px;
     
   
   }
   
 }
-
